@@ -1,0 +1,15 @@
+header {
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+img.logo {
+    height: 50px;
+    width: 112px;
+    margin: 10px;
+    flex: 0;
+}

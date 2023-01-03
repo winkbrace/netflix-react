@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+    src: local('Netflix Sans'), url(./../assets/fonts/NetflixSans-Regular.otf) format('opentype');
+}
+
+body {
+    font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: lightgray;
+}
