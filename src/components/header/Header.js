@@ -1,5 +1,5 @@
 import "./Header.css";
-import NetflixLogo from "../assets/img/Netflix_Logo_PMS.png";
+import NetflixLogo from "../../assets/img/Netflix_Logo_PMS.png";
 import Navigation from "./Navigation";
 import Search from "./Search";
 import Profile from "./Profile";

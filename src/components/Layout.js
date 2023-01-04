@@ -1,5 +1,5 @@
 import "./Layout.css";
-import Header from "./Header";
+import Header from "./header/Header";
 
 const Layout = ({children}) => {
     return(
@@ -9,7 +9,7 @@ const Layout = ({children}) => {
                 {children}
             </main>
         </>
-    )
-}
+    );
+};
 
 export default Layout;

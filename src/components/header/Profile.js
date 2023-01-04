@@ -1,5 +1,5 @@
 import "./Profile.css";
-import profileRobot from '../assets/img/profile_robot.png';
+import profileRobot from '../../assets/img/profile_robot.png';
 
 const Profile = (props) => {
     return (
