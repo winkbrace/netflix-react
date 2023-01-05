@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+    font-size: 1vw;
     background-color: #141414;
     color: white;
     -webkit-font-smoothing: antialiased;
