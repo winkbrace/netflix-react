@@ -54,7 +54,10 @@ class Carousel extends React.Component {
                 <div className="row">
                     <Handle type="prev" onHandleClick={this.scrollLeft} shouldShow={this.state.page > 0} />
                     { this.state.videos.map((video, i) => (
-                        <div className="carousel-item" style={i === 0 ? {marginLeft: (this.state.page * -100) + "%"} : {}} key={`${this.props.category}-item-${i}`}>
+                        <div className="carousel-item"
+                             style={i === 0 ? {marginLeft: (this.state.page * -100) + "%"} : {}}
+                             key={`item-${i}`}
+                        >
                             <VideoCard key={video.id} video={video} />
                         </div>
                     )) }

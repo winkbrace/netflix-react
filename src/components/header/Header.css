@@ -5,6 +5,7 @@ header {
     align-items: center;
     background-color: black;
     color: white;
+    font-size: 14px;
 }
 
 header > img.logo {

@@ -46,7 +46,3 @@ img.hero {
     display: flex;
     flex-wrap: wrap;
 }
-
-.button-container > button {
-    flex-grow: 5;
-}
