@@ -1,18 +1,32 @@
 @font-face {
-  font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
-  src: local('Netflix Sans'), url(./assets/fonts/NetflixSans-Regular.otf) format('opentype');
+    font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+    src: local('Netflix Sans'), url(./assets/fonts/NetflixSans-Regular.otf) format('opentype');
 }
 
 body {
-  margin: 0;
-  font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
-  background-color: #141414;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+.hidden {
+    display: none;
 }

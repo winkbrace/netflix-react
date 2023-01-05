@@ -1,8 +1,9 @@
 .hero-container {
-    background-color: black;
+    background: linear-gradient(180deg,rgba(0,0,0,.6),transparent 85%);
     position: absolute;
     width: 100%;
     height: 56.25vw;
+    top: 70px;
 }
 
 img.hero {
@@ -27,7 +28,7 @@ img.hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 1rem;
+    padding: 0 4%;
 }
 
 .vignette > img {
@@ -35,7 +36,10 @@ img.hero {
 }
 
 .vignette > p {
-    font-size: 0.8rem;
+    color: #fff;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .button-container {

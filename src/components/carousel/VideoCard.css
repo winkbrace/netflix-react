@@ -1,0 +1,25 @@
+.video-card {
+    box-sizing: border-box;
+}
+
+.video-card-content {
+    position: relative;
+    height: 13vw;
+}
+
+.video-card-content > img.background {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.video-card-content > img.logo {
+    position: absolute;
+    bottom: 10px;
+    max-height: 50%;
+    max-width: 100%;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

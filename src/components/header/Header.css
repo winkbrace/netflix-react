@@ -7,7 +7,7 @@ header {
     color: white;
 }
 
-img.logo {
+header > img.logo {
     height: 50px;
     width: 112px;
     margin: 10px;

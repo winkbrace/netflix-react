@@ -1,14 +1,14 @@
 import './Navigation.css';
 
-const Navigation = (props) => {
+const Navigation = () => {
     return (
         <nav>
             <ul>
-                <li><a href="/">Homepagina</a></li>
-                <li><a href="/series">Series</a></li>
-                <li><a href="/films">Films</a></li>
-                <li><a href="/new">Nieuw</a></li>
-                <li><a href="/popular">Populair</a></li>
+                <li key="home"><a href="/">Homepagina</a></li>
+                <li key="series"><a href="/series">Series</a></li>
+                <li key="films"><a href="/films">Films</a></li>
+                <li key="new"><a href="/new">Nieuw</a></li>
+                <li key="popular"><a href="/popular">Populair</a></li>
             </ul>
         </nav>
     );
