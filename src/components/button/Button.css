@@ -1,0 +1,26 @@
+button {
+    border-radius: 4px;
+    border: 0;
+    padding: 0.8rem 2rem;
+    margin: 0 1rem 1rem 0;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-primary {
+    background-color: white;
+    color: black;
+}
+
+.color-secondary {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+}
+
+button > svg {
+    margin-right: 0.6rem;
+    height: 24px;
+}

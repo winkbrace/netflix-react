@@ -30,29 +30,19 @@ img.hero {
     padding-left: 1rem;
 }
 
-.vignette img {
+.vignette > img {
     width: 100%;
 }
 
-.vignette p {
+.vignette > p {
     font-size: 0.8rem;
 }
 
-button {
-    border-radius: 4px;
-    border: 0;
-    padding: 0.8rem 2rem;
-    margin: 0 1rem 1rem 0;
-    position: relative;
-    opacity: 1;
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.color-primary {
-    background-color: white;
-    color: black;
-}
-
-.color-secondary {
-    background-color: rgba(109, 109, 110, 0.7);
-    color: white;
+.button-container > button {
+    flex-grow: 5;
 }

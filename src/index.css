@@ -1,8 +1,13 @@
+@font-face {
+  font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+  src: local('Netflix Sans'), url(./assets/fonts/NetflixSans-Regular.otf) format('opentype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Netflix Sans', Verdana, Arial, sans-serif;
+  background-color: #141414;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
